@@ -10,7 +10,8 @@ inferiors a un número límit, que l’usuari introdueix per teclat.
 """
 par=0
 impar=0
-for i in range(31):
+num=int(input())
+for i in range(num):
     if i %2==0:
        par=par+i
     else:
