@@ -1,3 +1,11 @@
+"""
+Arnau Fernández Pinar
+Matteo Vilchez
+e1. Programa que demana a l'usuari la introducció de 10 nombres sencers (que també podrien ser 10000000 😱😳😈) i ha de mostrar,
+al final i per pantalla, quants són positius,
+quants negatius i quants zero.
+28/11/2023
+"""
 ceros=0
 positivo=0
 negativo=0

@@ -1,6 +1,15 @@
-BLANC = "⬜"
-NEGRE = "⬛"
-i=0
+"""
+Arnau Fernández Pinar
+Matteo Vilchez
+e4
+Programa que imprimeix un tauler d’escacs per pantalla.
+Un taulell d’escacs comença amb la casella
+Blanca i és de mida 8x8 sempre ;-)
+28/11/2023
+"""
+BLANC = "⬛"
+NEGRE = "⬜"
+i=1
 for x in range(8):
     linia=""
     for y in range(8):
