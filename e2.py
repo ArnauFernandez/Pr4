@@ -7,10 +7,11 @@ Els valors permesos per a l'alçada son entre 2 i 9.
 (ambdós inclosos)
 28/11/2023
 """
-altura=int(input())
-if altura >=2 and altura <=9:
-    for i in range(1,altura):
-        for j in range(1,altura+1):
-            print(j*altura)
+num = int(input("Ingrese un número entre 2 y 9: "))
+if num >= 2 and num <= 9:
+    for i in range(1, num + 1):
+        for j in range(1, i + 1):
+            print(i, end=" ")
+        print("")
 else:
-    print("error")
+    print("El número debe estar entre 2 y 9")
