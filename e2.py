@@ -7,11 +7,13 @@ Els valors permesos per a l'alçada son entre 2 i 9.
 (ambdós inclosos)
 28/11/2023
 """
-num = int(input("Ingrese un número entre 2 y 9: "))
+num = int(input("Introduce un número entre 2 y 9: "))
 if num >= 2 and num <= 9:
-    for i in range(1, num + 1):
-        for j in range(1, i + 1):
-            print(i, end=" ")
-        print("")
+    print(1)
+    for i in range(2, num):
+        print(i,end="")
+        print(" "*(i-2),end="")
+        print(i)
+    else: print(str(i+1)*(1+i))
 else:
     print("El número debe estar entre 2 y 9")
