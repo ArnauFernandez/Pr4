@@ -11,7 +11,7 @@ num = int(input("Introduce un número entre 2 y 9: "))
 if num >= 2 and num <= 9:
     print(1)
     for i in range(2, num):
-        print(i,end="")
+        print(i,end=" ")
         print(" "*(i-2),end="")
         print(i)
     else: print(str(i+1)*(1+i))
